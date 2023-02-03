@@ -8,22 +8,23 @@
 // “2” → invalid
 // “9/2” → 2.5
 
-//ANSWER= function calculator(input){
-//        s=input.trim();
-//        let arr= s.split(/\-|\+|\*|\//)
-//        if (arr.length===1){
-//           console.log("invalid")
-//        }
-//        else{
-//        var a=arr[0];
-//        var b=arr[1];
-//        var ind=a.length
-//        //console.log(s.charAt(ind))
-//       if(s.charAt(ind)=='+') console.log(Number(a)+Number(b))
-//       if(s.charAt(ind)=='-') console.log(Number(a)-Number(b))
-//       if(s.charAt(ind)=='*') console.log(Number(a)*Number(b))
-//       if(s.charAt(ind)=='/') console.log(Number(a)/Number(b))
+//ANSWER= 
+          function calculator(input){
+       s=input.trim();
+       let arr= s.split(/\-|\+|\*|\//)
+       if (arr.length===1){
+          console.log("invalid")
+       }
+       else{
+       var a=arr[0];
+       var b=arr[1];
+       var ind=a.length
+       console.log(s.charAt(ind))
+      if(s.charAt(ind)=='+') console.log(Number(a)+Number(b))
+      if(s.charAt(ind)=='-') console.log(Number(a)-Number(b))
+      if(s.charAt(ind)=='*') console.log(Number(a)*Number(b))
+      if(s.charAt(ind)=='/') console.log(Number(a)/Number(b))
   
-//       }
-//       }
-//       calculator("9/2")
+      }
+      }
+      calculator("9/2")

@@ -3,9 +3,7 @@
 
 //ANSWER= 
 
-// const Peven = obj
-//   .filter((ele) => {
-//     return ele.age % 2 === 0;
-//   })
-//   .map((ele) => ele.name);
-// console.log(Peven);
+const Peven = obj.filter((ele) => {
+    return ele.age % 2 === 0;
+  }).map((ele) => ele.name);
+console.log(Peven);
